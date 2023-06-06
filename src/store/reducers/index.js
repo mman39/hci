@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import consult from "./consultReducer";
+import patientInfoReducer from "./patientInfoReducer";
 
 const rootReducer = combineReducers({
-  consult
+  patientInfoReducer
 });
 
 export default rootReducer;
